@@ -1,4 +1,4 @@
-describe("The payroll system", function () {
+                                                                                                               describe("The payroll system", function () {
   describe("populates a record from an Array", function () {
     it("has a function called createEmployeeRecord", function () {
       expect(createEmployeeRecord).to.exist
@@ -314,7 +314,7 @@ describe("The payroll system", function () {
               timesOutRecordRow[1].forEach(function(timeOutStamp){
                 createTimeOutEvent(rec, timeOutStamp)
               })
-            }) 
+            })
             expect(calculatePayroll(employeeRecords)).to.eql(11880)
           })
         })
@@ -322,5 +322,3 @@ describe("The payroll system", function () {
     })
   })
 })
-
-
